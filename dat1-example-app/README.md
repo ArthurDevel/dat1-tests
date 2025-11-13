@@ -39,3 +39,7 @@ Chat interface with two modes:
 - **Non-Streaming**: Complete response returned at once
 
 Both modes show performance metrics (prompt time, generation speed, token count).
+
+## Use a custom deployed model
+
+See `dat1-deploy-custom-models/llama-chat` for an example on how to deploy a custom LLM to dat1. Then use env var `DAT1_CHAT_ENDPOINT_OVERRIDE` to change the chat endpoint.
